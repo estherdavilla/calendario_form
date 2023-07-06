@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/cadastro.dart';
 import 'package:flutter_application_1/pagina.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class App extends StatelessWidget {
         primarySwatch: Colors.purple  
       ),
       debugShowCheckedModeBanner: false,
-      home: const Pagina(),
+      home: const Curso(),
     );
   }
 }

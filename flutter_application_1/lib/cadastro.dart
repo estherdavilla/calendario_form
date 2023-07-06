@@ -70,8 +70,6 @@ class _CursoState extends State<Curso> {
                       },
                     ),
                     
-    
-
                     DropdownButtonFormField<String>(
                       decoration: const InputDecoration(
                         labelText: "Modalidade: ",
@@ -111,8 +109,6 @@ class _CursoState extends State<Curso> {
                       ],
                     ),
 
-//
-
                     DropdownButtonFormField<String>(
                       decoration: const InputDecoration(
                         labelText: "Eixo: ",
@@ -143,18 +139,6 @@ class _CursoState extends State<Curso> {
                         ),
                       ],
                     ),
-
-                    //
-
-
-                    TextFormField(
-                      controller: _eixocontroller,
-                      decoration: const InputDecoration(
-                        labelText: "Eixo: ",
-                      ),
-                      validator: (value) {},
-                    ),
-
 
                     ElevatedButton(
                       onPressed: (){
