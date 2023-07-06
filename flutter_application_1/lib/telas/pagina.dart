@@ -15,7 +15,7 @@ class _PaginaState extends State<Pagina> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Lista de Cursos"),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.lightBlue,
       ),
       body: Container(
         padding: const EdgeInsets.all(16),
