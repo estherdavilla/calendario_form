@@ -64,5 +64,5 @@ Color shadeColor(Color color, double factor) => Color.fromRGBO(
 
 class Palette {
   // Your hexadecimal color code
-  static const Color primary = Colors.lightBlue;
+  static const Color primary = Color(0xFF004A8D);
 }
